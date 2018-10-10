@@ -29,9 +29,8 @@ let conversionTemp = function (farenheit) {
     fToC: (farenheit - 32) / (9/5),
     fToK: (farenheit + 459.67) * 5 / 9
   }
-
   return {
-    answer: `${farenheit} farenheit is converted to ${tempConvert.fToC} celcius and ${tempConvert.fToK} Kelvin`
+    answer: `${farenheit} farenheit is converted to ${tempConvert.fToC} celsius and ${tempConvert.fToK} Kelvin`
   }
  }
 
